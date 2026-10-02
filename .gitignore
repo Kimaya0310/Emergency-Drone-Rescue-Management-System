@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# YOLO model weights
+*.pt
+
+# Node
+node_modules/
+dist/
+
+# Environment and editor
+.vscode/
+.DS_Store
