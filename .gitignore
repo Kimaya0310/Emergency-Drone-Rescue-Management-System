@@ -1,17 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
 venv/
 .venv/
-.env
-
-# YOLO model weights
-*.pt
-
-# Node
+env/
 node_modules/
 dist/
-
-# Environment and editor
-.vscode/
+build/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
 .DS_Store
+Thumbs.db
